@@ -136,7 +136,7 @@ If the class library project is not open, you can add the class library to the p
 2. Right-click in the source code and choose Insert Code (Alt-Insert) and select Call Enterprise Bean to open the Call Enterprise Bean dialog. (or press alt + insert then select Call Enterprise Bean)
 3. Expand the EntAppEJB project node (EntAppEJB-ejb) and select MySession. Click OK.
 
-![Call Bean](img/call_bean.jpg)
+![Call Bean](img/call_bean.JPG)
 
 The dialog automatically selects Remote as the interface type. When you click OK, the IDE adds the following annotation to  ``Main.java`` .
 
