@@ -168,4 +168,4 @@ If you want to create additional EJBs, you can simply add the new remote interfa
 
 
 
-*This is an updated version of the Apache tutorial*
+*This is an updated version of the [Apache tutorial](https://netbeans.apache.org/kb/docs/javaee/entappclient.html)*
