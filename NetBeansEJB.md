@@ -165,3 +165,7 @@ You can now run the application client by building and deploying the EntAppClien
 When you click Run, the IDE builds the application client project and deploys the JAR archive to the server. You can see the message from the application client in the Output window.
 
 If you want to create additional EJBs, you can simply add the new remote interfaces of the EJBs to the EJBRemoteInterface class library project.
+
+
+
+*This is an updated version of the Apache tutorial*
