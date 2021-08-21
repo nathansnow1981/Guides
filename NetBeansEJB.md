@@ -79,7 +79,7 @@ The class should look like the following.
 public class MySession implements MySessionRemote {
 
     public String getResult() {
-        return *"This is My Session Bean"*;
+        return "This is My Session Bean";
     }
 }
 ```
