@@ -1,0 +1,27 @@
+
+#spring:
+#  security:
+#    user:
+#      name: admin1
+#      password: password1
+
+
+spring:
+  # Datasource
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    database:
+      name: spring_secutiry_example_db
+      host: localhost
+      port: 3306
+    url:  jdbc:mysql://${spring.datasource.database.host}:${spring.datasource.database.port}/${spring.datasource.database.name}
+    username: root
+    password: P8vYPWhlIorBIrAv
+
+  # JPA
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+hibernate.format_sql: true
