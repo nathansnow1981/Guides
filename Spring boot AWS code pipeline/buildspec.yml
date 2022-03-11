@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Entering the build phase...
+      - mvn clean package
+  post_build:
+    commands:
+      - echo Build phase completed
+
+artifacts:
+  files:
+    - target/my-deadly-app.jar
+  discard-paths: yes
